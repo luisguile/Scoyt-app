@@ -1,13 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+//import {  h1 }  from ` ./src/styles/styles.js `
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>
+
+<header> 
+       <h1>
+         
         Scout game
-      </Text>
+      </h1 >
+ </header>
+ <main >
+     
+ </main>
+
       <StatusBar style="auto" />
     </View>
   );
@@ -17,8 +26,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: 	`#4169E1`,
+    alignItems: `center`,
+    justifyContent: `center`,
   },
+
 });
